@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <section class="top">
+      <header class="header">
+        <div class="header-logo-wrapper">
+          <div class="header-logo">
+            <img
+              src="css/assets/image.png"
+              height="auto"
+              width="50px"
+              alt=""
+              class="pro-logo"
+            />
+          </div>
+        </div>
+
+        <div class="header-links-wrapper">
+          <div class="header-links">
+            <ul>
+              <li class="header-link-1">
+                <a href="" class="h-link-1">Home</a>
+              </li>
+              <li class="header-link-2"><a href="" class="h-link-2">Ads</a></li>
+              <li class="header-link-3">
+                <a href="" class="h-link-3">Plans</a>
+              </li>
+              <li class="header-link-4">
+                <a href="" class="h-link-4">Company</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="header-buttons-wrapper">
+          <div class="header-buttons">
+            <div class="login-link-wrapper">
+              <li><a href="" class="header-login">Login</a></li>
+            </div>
+            <div class="ads-button-wrapper">
+              <button class="ads">Start Advertising <span> ✨</span></button>
+            </div>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <section class="middle">
+      <div class="paragraph-wrapper">
+        <div class="paragraph">
+          <p>Become a member and learn the tricks of programming.</p>
+        </div>
+      </div>
+
+      <div class="forms-container">
+        <div class="login-form-wrapper">
+          <div class="login-form">
+            <div class="h1-login-wrapper">
+              <h1>Login</h1>
+            </div>
+
+            <form action="" class="login" id="myForm">
+              <div class="ID-wrapper">
+                <label for="login-email">Email or ID</label><br />
+                <input
+                  type="text"
+                  required
+                  pattern="^[Hh]\d+(@hct\.ac\.ae)?$"
+                  id="login-email"
+                  name="login-email"
+                /><span class="incorrect-email"></span>
+              </div>
+
+              <div class="password-wrapper">
+                <label for="login-pwd">Password</label><br />
+                <input
+                  type="text"
+                  pattern=".{8,}"
+                  id="login-pwd"
+                  name="login-pwd"
+                  required
+                /><span class="incorrect-password"></span>
+              </div>
+              <div class="forgot-password-wrapper">
+                <p>Forgotten Password?</p>
+              </div>
+              <div class="logsup-button-wrapper">
+                
+                  <input
+                    type="submit"
+                    id="btn-login"
+                    name="button"
+                    value="Login"
+                    style="color: black"
+                />
+              </div>
+              <div class="login-text-wrapper">
+                <p class="bottom-text">Login MaO using your favorite platform instead</p>
+              </div>
+              <div class="GMA-logos">
+                <div class="google">
+                  <img
+                    src="./css/assets/icons8-google-48.png"
+                    width="24px"
+                    height="24px"
+                    alt=""
+                  />
+                </div>
+                <div class="meta">
+                  <img
+                    src="./css/assets/icons8-meta-24.png"
+                    width="24px"
+                    height="24px"
+                    alt=""
+                  />
+                </div>
+                <div class="apple">
+                  <img
+                    src="./css/assets/icons8-apple-logo-30.png"
+                    width="24px"
+                    height="24px"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="signup-form-wrapper">
+          <div class="signup-form">
+            <div class="h1-signup-wrapper">
+              <h1>New here? Sign Up now!</h1>
+            </div>
+            <form action="post" class="signup">
+              <div class="ID-wrapper">
+                <label for="signup-email">Email or ID</label><br />
+                <input
+                  type="text"
+                  required
+                  pattern="^[Hh]\d+(@hct\.ac\.ae)?$"
+                  id="signup-email"
+                  name="signup-email"
+                /><span class="incorrect-SignupEmail"></span>
+              </div>
+
+              <div class="password-wrapper">
+                <label for="signup-pwd">Password</label><br />
+                <input
+                  type="text"
+                  pattern=".{8,}"
+                  id="signup-pwd"
+                  name="signup-pwd"
+                  required
+                /><span class="incorrect-SignupPassword"></span>
+              </div>
+              <div class="confirm-password">
+                <label for="conpwd">Confirm Password</label><br />
+                <input
+                  type="text"
+                  id="conpwd"
+                  name="conpwd"
+                  required
+                /><span class="unmatched-password"></span>
+              </div>
+              <div class="logsup-button-wrapper">
+                <label for="btn">
+                  <input
+                    type="submit"
+                    id="btn-signup"
+                    name="button"
+                    value="Sign Up"
+                    style="color: black"
+                /></label>
+              </div>
+
+              <div class="login-text-wrapper">
+                <p class="bottom-text">Login MaO using your favorite platform instead</p>
+              </div>
+              <div class="GMA-logos">
+                <div class="google">
+                  <img
+                    src="./css/assets/icons8-google-48.png"
+                    width="24px"
+                    height="24px"
+                    alt=""
+                  />
+                </div>
+                <div class="meta">
+                  <img
+                    src="./css/assets/icons8-meta-24.png"
+                    width="24px"
+                    height="24px"
+                    alt=""
+                  />
+                </div>
+                <div class="apple">
+                  <img
+                    src="./css/assets/icons8-apple-logo-30.png"
+                    width="24px"
+                    height="24px"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="containers1">
+        <div class="footlogo">
+          <img
+            src="css/assets/image.png"
+            width="50px"
+            height="auto"
+            alt=""
+            class="pro-logo"
+          />
+        </div>
+        <div class="left-foot">
+          <address>
+            <p>4517 Washington eve Manchester. kentucky 39872</p>
+          </address>
+        </div>
+      </div>
+      <div class="containers2">
+        <div class="list1">
+          <h4 class="h1">Social</h4>
+          <ul class="foot-ul">
+            <li class="h1-list1"></li><a href="">Twitter</a></li>
+            <li class="h1-list2"> <a href="">Meta</a></li>
+            <li class="h1-list3"><a href="">Instagram</a></li>
+            <li class="h1-list5"><a href="">Google</a></li>
+          </ul>
+        </div>
+        <div class="list2">
+          <h4 class="h2">Privacy</h4>
+          <ul class="foot-ul">
+            <li class="h2-list1"><a href="">Cookies</a></li>
+            <li class="h2-list2"><a href="">Terms&Condition</a></li>
+            <li class="h2-list3"><a href="">Privacy Policy</a></li>
+            <li class="h2-list4"><a href="">Data Safety</a></li>
+          </ul>
+        </div>
+        <div class="list3">
+          <h4 class="h3">API</h4>
+          <ul class="foot-ul">
+            <li class="h3-list1"><a href="">Downloads</a></li>
+            <li class="h3-list2"><a href="">Data Sets</a></li>
+            <li class="h3-list3"><a href="">Keys</a></li>
+            <li class="h3-list4"><a href="">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="list4">
+          <h4 class="h4">Press</h4>
+          <ul class="foot-ul">
+            <li class="h4-list1"><a href="#">10 November </a></li>
+            <li class="h4-list2"><a href="">20 November</a></li>
+            <li class="h4-list3"><a href="">2 November</a></li>
+            <li class="h4-list4"><a href="">See More..</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="containers3"><div class="subscribe">
+        <input type="search" value="@"> 
+        <input type="button" value="subscribe" class="sub">
+      </div></div>
+    </section>
+    <script src="script.js" async></script>
+
+  </body>
+</html>
